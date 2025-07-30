@@ -1,0 +1,30 @@
+/* Child selector  method*/
+
+.box>p {
+    color: firebrick;
+}
+
+/* Group selector method */
+
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/* Descendant selector method */
+
+.box li {
+    color: blue
+}
+
+/* Chaining selector method */
+
+li.done {
+    color: green;
+}
+
+/* Combining combiners  method*/
+
+ul p.done {
+    font-size: 0.5rem;
+}
